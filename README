@@ -1,0 +1,45 @@
+==============================================
+
+Leroy Jenkins
+
+Copyright James Luther
+Written and maintained by James Luther
+
+=============================================
+
+License --GPLv3--
+
+============================================
+
+Leroy Jenkins is a python tool that will allow
+remote execution of commands on a Jenkins
+server and its nodes. This tool provides an
+interactive shell to perform all functions
+remote and local.
+
+Commands available in this version:
+ command ------------ execute remote commands
+ shell -------------- execute local commands
+ nodes -------------- list all nodes
+ node --------------- switch from server to node
+ connect ------------ connect to Jenkins or Hudson server
+ exit --------------- exit node shell or leroy jenkins
+ help --------------- display help
+ ps ----------------- display processes on remote
+ ifconfig ----------- display ifconfig on remote
+ mounts ------------- display mounts on remote
+ whoami ------------- see user information on remote
+ users -------------- display users on remote
+Shortcuts:
+     $ ----------- shell command shortcut
+     @ ----------- command command shortcut
+     ? ----------- help command shortcut
+
+When the command connect is executed
+the server information as well as
+any authentication will be prompted.
+Once connected all other commands are 
+available.
+
+For questions, comments, updates contact
+James Luther through github.
