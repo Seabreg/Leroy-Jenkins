@@ -25,6 +25,10 @@ The -g option will open the gui. It is
 pretty self explainatory from there but
 if you have questions please contact.
 
+To install either run the insall.sh file
+or copy all items to /usr/share/leroy-jenkins.
+You can then create a .desktop file or sym 
+links as needed.
 
 For questions, comments, updates contact
 James Luther through github.
