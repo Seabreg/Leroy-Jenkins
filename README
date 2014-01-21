@@ -17,29 +17,14 @@ server and its nodes. This tool provides an
 interactive shell to perform all functions
 remote and local.
 
-Commands available in this version:
- command ------------ execute remote commands
- shell -------------- execute local commands
- nodes -------------- list all nodes
- node --------------- switch from server to node
- connect ------------ connect to Jenkins or Hudson server
- exit --------------- exit node shell or leroy jenkins
- help --------------- display help
- ps ----------------- display processes on remote
- ifconfig ----------- display ifconfig on remote
- mounts ------------- display mounts on remote
- whoami ------------- see user information on remote
- users -------------- display users on remote
-Shortcuts:
-     $ ----------- shell command shortcut
-     @ ----------- command command shortcut
-     ? ----------- help command shortcut
+This newer version of Leroy Jenkins has
+a gui as well as the previous commands. 
+To operate either run in the command
+prompt leroy-jenkins.py or leroy-jenkins -g.
+The -g option will open the gui. It is 
+pretty self explainatory from there but
+if you have questions please contact.
 
-When the command connect is executed
-the server information as well as
-any authentication will be prompted.
-Once connected all other commands are 
-available.
 
 For questions, comments, updates contact
 James Luther through github.
